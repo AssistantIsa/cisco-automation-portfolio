@@ -1,0 +1,202 @@
+# ==============================================
+# CISCO AUTOMATION PROJECT - .gitignore
+# ==============================================
+# Este archivo protege información sensible
+# y mantiene el repositorio limpio
+
+# ==================
+# SEGURIDAD CRÍTICA 🚨
+# ==================
+# Nunca subas credenciales o configuraciones sensibles
+config.py
+credentials.py
+secrets.py
+.env
+.env.local
+.env.production
+*.key
+*.pem
+*.crt
+*.p12
+device_credentials.txt
+passwords.txt
+
+# ==================
+# PYTHON ESPECÍFICO
+# ==================
+# Archivos compilados de Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Distribución / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Entornos virtuales
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.venv/
+.ENV/
+
+# ==================
+# ARCHIVOS DE DESARROLLO
+# ==================
+# VS Code
+.vscode/settings.json
+.vscode/launch.json
+.vscode/extensions.json
+.vscode/.ropeproject
+
+# PyCharm
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+*.ipynb
+
+# ==================
+# LOGS Y OUTPUTS 📊
+# ==================
+# Archivos de log
+*.log
+logs/
+debug.log
+error.log
+access.log
+
+# Outputs de scripts
+outputs/
+backups/
+reports/
+exports/
+temp/
+tmp/
+
+# Archivos CSV/JSON generados por tus scripts
+device_inventory_*.csv
+config_backup_*.json
+interface_status_*.csv
+network_scan_*.json
+
+# ==================
+# SISTEMA OPERATIVO
+# ==================
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# macOS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+
+# Linux
+*~
+.nfs*
+
+# ==================
+# HERRAMIENTAS DE RED 🌐
+# ==================
+# Wireshark captures
+*.pcap
+*.pcapng
+
+# Network configs que podrían tener info sensible
+running-config*.txt
+startup-config*.txt
+device-configs/
+network-topology.json
+
+# SSH keys (por si acaso)
+id_rsa
+id_rsa.pub
+known_hosts
+
+# ==================
+# TESTING
+# ==================
+# Coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+.pytest_cache/
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
+# ==================
+# DOCUMENTACIÓN TEMPORAL
+# ==================
+# Drafts y notas personales
+notes.txt
+todo.txt
+draft*.md
+personal_notes/
+
+# ==================
+# ARCHIVOS GRANDES
+# ==================
+# Imágenes de respaldo
+*.img
+*.iso
+*.vmdk
+
+# Dumps de base de datos
+*.sql
+*.db
+*.sqlite3
+
+# ==================
+# EJEMPLOS DE USO:
+# ==================
+# Si creas un archivo llamado "config.py" con:
+# USERNAME = "admin"  
+# PASSWORD = "secret123"
+# Este archivo NO se subirá a GitHub ✅
+
+# Si generas un CSV llamado "device_inventory_2024.csv"
+# Este archivo NO se subirá automáticamente ✅# Cisco Automation - Protected Files
+#3. **Configurar credenciales (Solo para laboratorio personal):**
+#   ```python
+   # OPCIONAL: Solo si tienes tu propio laboratorio
+   # Crear config.py para tus propios dispositivos
+#   DEVICE_IP = "tu-ip-lab"
+#   PORT = "8181" 
+#   USERNAME = "tu-usuario-lab"
+#   PASSWORD = "tu-password-lab"
