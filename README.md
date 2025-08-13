@@ -209,9 +209,6 @@ python scripts/network_monitor.py --status-report
 python scripts/network_monitor.py --continuous --alert-email admin@company.com
 # ⚡ Salida: Dashboard en tiempo real + alertas automáticas
 
-# Métricas específicas
-python scripts/network_monitor.py --device CORE-SW01 --metrics cpu,memory,interfaces
-# ⚡ Salida: Métricas SNMP en tiempo real
 ```
 
 ---
@@ -332,37 +329,6 @@ development_environment = {
 }
 ```
 
----
-
-## 📈 Métricas de Impacto y ROI
-
-### **⚡ Efficiency Metrics:**
-
-| Proceso Tradicional | Mi Automatización | Mejora Absoluta | Mejora % |
-|-------------------|-------------------|-----------------|----------|
-| **Network Inventory** | 4-8 horas/mes → 5 min/mes | 7.9 horas ahorradas | **96% reducción** |
-| **Config Backup Coverage** | 60% inconsistente → 100% diario | +40% cobertura | **67% mejora** |
-| **Fault Detection Time** | 15-30 min → <2 min | 28 min más rápido | **93% reducción** |
-| **Report Generation** | Manual, desactualizado → Tiempo real | Eliminación completa | **100% automatizado** |
-
-### **💰 Financial Impact:**
-
-```
-ROI Calculation (Conservative):
-┌─────────────────────┬──────────────┬──────────────┐
-│ Metric              │ Monthly      │ Annual       │
-├─────────────────────┼──────────────┼──────────────┤
-│ Time Saved          │ 32 hrs       │ 384 hrs      │
-│ @ $75/hr (loaded)   │ $2,400       │ $28,800      │
-│ SLA Penalties Avoid │ $500         │ $6,000       │
-│ Error Reduction     │ $300         │ $3,600       │
-├─────────────────────┼──────────────┼──────────────┤
-│ TOTAL VALUE         │ $3,200       │ $38,400      │
-│ Implementation Cost │ $2,000       │ $2,000       │
-│ NET ROI             │              │ 1,820%       │
-└─────────────────────┴──────────────┴──────────────┘
-```
-
 **🎯 Payback period: 2.5 semanas**
 
 ---
@@ -439,26 +405,11 @@ certification_path = {
 
 ---
 
-## 🏆 Testimoniales y Validación Social
-
-### **🎯 Feedback de Pares Técnicos:**
-
-> *"Juan's automation scripts saved us 20+ hours weekly. The ROI calculation was spot-on - we recovered implementation costs in under a month."*  
-> **— Miguel Rodriguez, Sr. Network Engineer @ TechCorp**
-
-> *"Impressive work on the RESTCONF integration. Clean code, solid error handling, perfect documentation."*  
-> **— Ana Martinez, DevNet Specialist @ Cisco Partner**
-
 ### **📊 GitHub Analytics:**
 - ⭐ **Repository Stars:** Growing organically
 - 🔄 **Active Development:** 15+ commits última semana  
 - 📖 **Documentation Score:** 95% completeness
 - 🧪 **Code Quality:** Zero critical issues detected
-
-### **🎓 Community Recognition:**
-- 💬 **DevNet Community:** Active contributor en forums
-- 📝 **Technical Blog:** Articles sobre automation best practices
-- 🎤 **Speaking:** Local Python meetup presentations
 
 ---
 
@@ -484,12 +435,6 @@ Este proyecto está **abierto a colaboración** de la comunidad. Si tienes ideas
 | **🧪 Testing** | Unit tests, integration tests, coverage | Intermediate |
 | **🔧 DevOps** | CI/CD, containerization, deployment | Advanced |
 
-### **🏅 Contributor Recognition:**
-- **🎖️ Hall of Fame** section para contributors principales
-- **📧 Direct credit** en release notes y documentation  
-- **💼 LinkedIn recommendations** para contribuciones significativas
-- **🎁 Cisco gear swag** para top contributors (cuando budget permita)
-
 ---
 
 ## 📞 Contacto Profesional
@@ -503,7 +448,7 @@ Este proyecto está **abierto a colaboración** de la comunidad. Si tienes ideas
 [![GitHub](https://img.shields.io/badge/GitHub-Follow_Projects-181717?style=for-the-badge&logo=github)](https://github.com/AssistantIsa)
 [![Email](https://img.shields.io/badge/Email-Professional_Inquiries-D14836?style=for-the-badge&logo=gmail)](mailto:usanaconisa@gmail.com)
 
-**📍 Location:** Near AIFA (Felipe Ángeles International Airport), México  
+**📍 Location:** Near new AIFA (Felipe Ángeles International Airport), México  
 **🕐 Timezone:** GMT-6 (Central Time Mexico)  
 **💼 Availability:** Open to opportunities and collaborations
 
@@ -560,7 +505,7 @@ Este proyecto está distribuido bajo la **MIT License** - ver el archivo [LICENS
 ### **🚀 ¿Te Impresionó Este Portfolio?**
 
 #### **Para Reclutadores y Hiring Managers:**
-🎯 **¿Necesitas un Network Automation Engineer que genere ROI desde día 1?**  
+🎯 **¿Necesitas un Network Automation Engineer desde día 1?**  
 🤝 **¡Conectémonos! Mi siguiente proyecto podría ser transformar TU infraestructura.**
 
 #### **Para Desarrolladores y Técnicos:**
@@ -596,7 +541,7 @@ Este proyecto está distribuido bajo la **MIT License** - ver el archivo [LICENS
 
 > *"Este portfolio no es solo código - es una demostración práctica de cómo la automatización inteligente puede transformar operaciones de red, reducir costos y eliminar errores humanos. Cada script resuelve problemas reales que he identificado en entornos empresariales.*
 > 
-> *Mi próximo desafío es aplicar estas competencias en tu organización, generando ROI medible desde el primer mes de implementación."*
+> *Mi próximo desafío es aplicar estas competencias en tu organización, desde el primer mes de implementación."*
 > 
 > **— Juan Antonio Sánchez, Network Automation Engineer**
 
